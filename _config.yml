@@ -1,6 +1,22 @@
-title: Tender Blacklist ZA
-description: A simple search tool / box driven by a single spreadsheet that allows users to check whether a person or company is blacklisted by local municipalities / provincial government / national treasury.
+title: Tender Blacklist WB
+description: A simple search tool / box powered by World Bank's Listing of Ineligible Firms & Individuals available at https://www.worldbank.org/en/projects-operations/procurement/debarred-firms
 
-url: https://tenderblacklist-za.codeforafrica.org
+url: https://tenderblacklist-wb.codeforafrica.org
+
+list_author: World Bank
+list_source:
+  - title: World Bank Listing of Ineligible Firms & Individuals
+    url: https://www.worldbank.org/en/projects-operations/procurement/debarred-firms
+    last_updated: May 2019
+
+afrileaks: https://secure.afrileaks.org/#/submission?context=b497daff-9c48-48b7-9c03-b412fcb2c4f8
+openafrica: https://openafrica.net/organization/the-elephant
+
+twitter: https://twitter.com/theelephantinfo
+facebook: https://www.facebook.com/theelephant.info
+instagram: https://www.instagram.com/theelephantinfo/
+youtube: https://www.youtube.com/channel/UCWgQRp7Ops6PGLEVLxZzqrQ
+
+github: https://github.com/CodeForAfrica/TenderBlacklist.WB
 
 google_analytics: UA-44795600-31

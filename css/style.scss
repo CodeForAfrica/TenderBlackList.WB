@@ -2,32 +2,29 @@
 ---
 
 
-
-body {
-	padding-top: 61px;
-}
-
-a {
-  cursor: pointer;
-}
-
 img {
   max-width: 100%;
 }
 
+.text-light a {
+  color: lightgray;
+  text-decoration: underline;
+  &:hover {
+    color: #fff;
+  }
+}
+
 nav .navbar-brand img {
-  max-height: 21px;
+  max-height: 25px;
   display: inline-block;
   vertical-align: top;
 }
 
 footer {
-	background: #000;
-	color: #fff;
-	padding: 50px 0 40px;
 	img {
-		max-height: 50px;
-		margin: 5px 10px;
+    max-height: 50px;
+    max-width: 210px;
+		margin: 15px 10px;
 	}
 	p.cc {
 		margin-top: 10px;
@@ -45,15 +42,14 @@ body.home .content {
 }
 
 body.page .content {
-  padding: 0 0 80px;
   .container {
     max-width: 600px;
   }
 }
 
 .widget {
-	.panel {
-		max-width: 400px;
+	.card {
+		max-width: 450px;
 		margin: 0 auto;
 		p.examples {
 			margin-top: 5px;

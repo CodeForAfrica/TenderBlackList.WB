@@ -1,17 +1,16 @@
 <div class="widget">
   <div class="container">
 
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <h3>Search for companies/people blacklisted by the National Treasury</h3>
-        <p><em>Data sourced from Treasury</em></p>
+    <div class="card">
+      <div class="card-body">
+        <h3>Search for companies or people blacklisted by {{ site.list_author }}</h3>
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for..." disabled>
-          <span class="input-group-btn">
-            <button class="btn btn-default" type="button" disabled="disabled">
+          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="button-search" disabled>
+          <div class="input-group-append">
+            <button class="btn btn-default" type="button" id="button-search" disabled>
               <i class="fa fa-btn fa-spinner fa-pulse"></i>
             </button>
-          </span>
+          </div>
         </div><!-- /input-group -->
         <p class="examples text-muted"><small>Examples: <span></span></small></p>
         <hr/>
@@ -21,11 +20,13 @@
           <hr/>
         </div>
 
-        <p class="attribution"><small>[
+        <p class="small"><em>Data sourced from <a href="{{ site.list_source[0].url }}" target="_blank" rel="noopener noreferrer">{{ site.list_source[0].title }}({{ site.list_source[0].last_updated }})</a>.</em></p>
+
+        <p class="text-center small">[
           <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer">
             {{ site.title }}
           </a>
-        ]</small></p>
+        ]</p>
       </div> <!-- /.panel-body -->
     </div> <!-- /.panel -->
 

@@ -1,2 +1,3 @@
-# TenderBlacklist.ZA
-Search tender blacklisted companies of South Africa.
+# TenderBlacklist.WB
+
+Search firms & individuals listed by World Bank as debarred.
