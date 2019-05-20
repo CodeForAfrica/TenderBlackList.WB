@@ -114,7 +114,7 @@ TenderBlacklist.fn.search = function (is_example = false) {
     results_html += '<small><strong>Reason:</strong> ' + entity.DEBAR_REASON + '</small><br/>';
 
     var from_date = moment(entity.DEBAR_FROM_DATE).format('Do MMM YYYY');
-    var to_date = moment(entity.DEBAR_TO_DATEs).format('Do MMM YYYY');
+    var to_date = moment(entity.DEBAR_TO_DATE).format('Do MMM YYYY');
     results_html += '<small><strong>Period:</strong> ' + from_date + ' to ' + to_date + '</small><br/>';
 
     results_html += '</li>';
